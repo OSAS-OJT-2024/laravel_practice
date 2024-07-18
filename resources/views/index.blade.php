@@ -10,7 +10,7 @@
              <a href="{{ route('tasks.show', ['id'=>$task->id])}}">{{$task->title}}</a>
          </div>
          @empty
-             <div>Gwapo kaayo ko!</div>
+             <div>There are no tasks!</div>
      @endforelse
  
  {{-- @endif --}}
